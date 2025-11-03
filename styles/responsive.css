@@ -42,7 +42,7 @@ body {
 	background-color: white;
 	margin: 0 auto;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-family: source-sans-pro;
 	color: #1E1E1E;
 	font-style: normal;
@@ -478,4 +478,29 @@ div.imageholder2 {
 .accordion label {
   display: block;
   cursor: pointer;
+}
+
+#carousel_wrapper {
+	width: 100%;
+	margin: 0;
+	max-width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+}
+.carousel-inner .carousel-item img {
+  width: auto; /* Maintains aspect ratio */
+  height: 380px; /*  */
+  display: block; /* Removes extra space below the image */
+  margin: 0 auto; /* Centers the image if its container is wider */
+}
+.carousel-caption {
+    right: 8%;
+    text-align: right;
+	color: gray;
+    left: auto;
+	bottom: 0%;
+    padding:5px;
+}
+.carousel-caption p {
+	font-size: 0.8em
 }
