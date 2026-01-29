@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Persaud - Shake</title>
+<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="../styles/responsive.css" rel="stylesheet" type="text/css" media="all">
+<link href="../styles/print.css" rel="stylesheet" type="text/css" media="print">
+	<!-- get the fonts from Adobe-->
+	<link rel="stylesheet" href="https://use.typekit.net/isw1blx.css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. --><script>var __adobewebfontsappname__="dreamweaver"</script>
+<!-- <script src="https://use.edgefonts.net/source-sans-pro:n4,n6,n2,n3:default.js" type="text/javascript"></script> -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Persaud Lab</h1>
+    <nav>
+      <h2 id="menulink"><a href="#navlinks">Menu</a></h2>
+      <ul id="navlinks">
+        <li><a href="../index.html" class="">HOME</a></li>
+        <li><a href="../People.html" class="">PEOPLE</a></li>
+        <li><a href="../Research.html">RESEARCH</a></li>
+        <li><a href="../Publications.html">PUBLICATIONS</a></li>
+		<li><a href="../Courses.html">COURSES</a></li>
+		  <li><a href="shake/LSUShake.html" class=""><h5><em>Shake</em></h5></a></li>
+		<li><a href="../Energy_Transition.html" class=""><h5><em><strong>Energy Transition</strong></em></h5></a></li>
+		<li><a href="../SOLAMS.html" class=""><h5><em><strong>Faulted Aquifers</strong></em></h5></a></li>
+		<li><a href="../BIMA.html" class=""><h5><em>Bangladesh</em></h5></a></li>
+        <li><a href="../MUSE.html" class=""><h5><em>Myanmar</em></h5></a></li>
+		<li><a href="../SFV.html" class=""><h5><em>the Valley</em></h5></a></li>
+		<li><a href="../BASIN.html" class=""><h5><em>Los Angeles</em></h5></a></li>
+		<li><a href="../Salton_Trough.html" class=""><h5><em>Salton Trough</em></h5></a></li>
+		<li><a href="../Multiscale_Imaging.html" class=""><h5><em>Multiscale Imaging</em></h5></a></li>
+		<li><a href="../FURTHER.html" class=""><h5><em>Southern Italy</em></h5></a></li>
+		<li><a href="../Data.html" class=""><h5><em>Data</em></h5></a></li>
+        <br><br><br>
+      </ul>
+    </nav>
+	</header>
+  <br>
+  <br>
+  <div id="subheader">raspberryshake@LSU
+  </div>
+
+<shake>
+   <h1><strong>Worldwide Earthquakes (M > 6) in the Last 60 Days</strong></h1>
+<h2>Scroll down and click an earthquake in the table to see seismograms from the LSU Shake, or watch the ground move in the continuous live stream from the Shake shown below! </h2>
+
+<h3><strong>Email the LSU Shake Team:</strong> <a href="mailto:raspberryshake@lsu.edu">raspberryshake@lsu.edu</a></p></h3>
+<iframe width="900" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/R95B0/00/EHZ"></iframe></a><br>
+
+
+<figure class="floatmap"><img src="LSUShake_map.png" alt=""/>
+<figcaption>Map showing LSU Shake location.</figcaption>
+  </figure>
+
+<figure class="floatnoderight"><img src="OurEarthOurLab_1.jpg" alt=""/>
+<figcaption>Middle school students constructing Raspberry Shakes at Our Earth, Our Lab event funded by Halliburton and LaSPACE.</figcaption>
+  </figure>
+  
+The LSU Shake is currently in the Nicholson Building. Predicted times for different seismic waves from the earthquake to arrive at LSU are marked with gray flags and labeled. <br>
+Time is UTC time (-5 hours for CDT, our local time). 
+<br>
+<strong>Try double clicking on the seismogram or using the mouse wheel to zoom in on the seismogram, drag to re-center, and shift double click to zoom out.</strong> 
+<br>
+Click <a href="https://stationview.raspberryshake.org/#/?lat=0.00000&lon=0.00000&zoom=1.847">here</a> for a map showing the worldwide Raspberry Shake network (LSU station name AM.R95B0).
+<br><br>
+
+ACKNOWLEDGMENTS - Jeff Springer assisted with sending data to the cloud from all the different locations we tried. Frank Womack is hosting the Shake in Nicholson. Parts of this webpage were developed using Philip Crotwell's seisplotjs modules, <a href="https://github.com/crotwell" class="">https://github.com/crotwell</a> and his generous help.
+
+</shake>
+<div class="recentQuakesUrl">
+</div>
+
+<main_shake>
+<h2>Earthquakes</h2>
+<div class="recentQuakes">
+</div>
+</main_shake>
+
+<aside_shake>
+<h2>Seismogram</h2>
+<div class="seismograms">
+</div>
+
+</aside_shake>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+<script src="seisplotjs_1.2.0_standalone.js"></script>
+<script src="seisplotjs_fdsnevent_1.1.1_standalone.js"></script>
+<script src="seisplotjs_fdsnstation_1.1.1_standalone.js"></script>
+<script src="seisplotjs_fdsndataselect_1.1.3_standalone.js"></script>
+<script src="seisplotjs_filter_1.2.0_standalone.js"></script>
+<script src="seisplotjs_waveformplot_1.2.4_standalone.js"></script>
+<script src="LSUshake_raw_and_filtered.js"></script>
+
+ <footer>
+    <p><a href="https://www.geo.arizona.edu">UA Department of Geosciences</a></p>
+    <p><a href="http://www.arizona.edu">UA Main Page</a></p>
+  </footer>
+  
+  <script type="text/javascript" src="../js/menu.js"></script>
+</div>
+
+</body>
+</html>
