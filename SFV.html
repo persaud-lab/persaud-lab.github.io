@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Persaud - San Fernando Valley</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="styles/responsive.css" rel="stylesheet" type="text/css" media="all">
+<link href="styles/print.css" rel="stylesheet" type="text/css" media="print">
+	<!-- get the fonts from Adobe-->
+	<link rel="stylesheet" href="https://use.typekit.net/isw1blx.css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. --><script>var __adobewebfontsappname__="dreamweaver"</script>
+<!-- <script src="https://use.edgefonts.net/source-sans-pro:n4,n6,n2,n3:default.js" type="text/javascript"></script> -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Persaud Lab</h1>
+    <nav>
+      <h2 id="menulink"><a href="#navlinks">Menu</a></h2>
+      <ul id="navlinks">
+        <li><a href="index.html" class="">HOME</a></li>
+        <li><a href="People.html" class="">PEOPLE</a></li>
+        <li><a href="Research.html">RESEARCH</a></li>
+        <li><a href="Publications.html">PUBLICATIONS</a></li>
+		<li><a href="Courses.html">COURSES</a></li>
+		  <li><a href="shake/LSUShake.html" class=""><h5><em>Shake</em></h5></a></li>
+		<li><a href="Energy_Transition.html" class=""><h5><em><strong>Energy Transition</strong></em></h5></a></li>
+		<li><a href="SOLAMS.html" class=""><h5><em><strong>Faulted Aquifers</strong></em></h5></a></li>
+		<li><a href="BIMA.html" class=""><h5><em>Bangladesh</em></h5></a></li>
+        <li><a href="MUSE.html" class=""><h5><em>Myanmar</em></h5></a></li>
+		<li><a href="SFV.html" class=""><h5><em>the Valley</em></h5></a></li>
+		<li><a href="BASIN.html" class=""><h5><em>Los Angeles</em></h5></a></li>
+		<li><a href="Salton_Trough.html" class=""><h5><em>Salton Trough</em></h5></a></li>
+		<li><a href="Multiscale_Imaging.html" class=""><h5><em>Multiscale Imaging</em></h5></a></li>
+		<li><a href="FURTHER.html" class=""><h5><em>Southern Italy</em></h5></a></li>
+		<li><a href="Data.html" class=""><h5><em>Data</em></h5></a></li>
+        <br><br><br>
+      </ul>
+    </nav>
+	</header>
+  <br>
+	<br>
+  <div id="subheader">San Fernando Valley, California Nodal Array
+  </div>
+  
+  <research><br>
+<rh2>Project Motivation</rh2><br>
+Detecting earthquakes and estimating earthquake ground motions in urban environments is challenging due to elevated anthropogenic noise and site accessibility constraints. Southern California is susceptible to seismic hazards, primarily due to numerous active faults (Figure 1) and the strong amplification effects of deep sedimentary basins. In the San Fernando Valley, events like the 1994 Mw 6.7 Northridge earthquake that occurred on a blind thrust fault resulted in significant damage (Fuis et al., 2003). Sparse regional monitoring (SCEDC network) and urban noise can limit the detection of microearthquakes (M&lt;3), potentially obscuring fine-scale fault activity and our ability to resolve sedimentary basin structure. Our work addresses these gaps by demonstrating how: i) <a href="https://doi.org/10.1785/0220250124">dense seismic arrays can resolve seismicity</a> that directly informs high-resolution fault mapping at &lt;5-km scale (this study is summarized below) and ii) <a href="https://doi.org/10.1785/0220240473"> improve urban seismic velocity models</a>.<br><br>
+  
+<figure class="floatwide"><img src="images/SFV_Fig1.png"><figcaption><br>FIG. 1 Map of Southern California showing seismicity (M&lt2.5; Hauksson et al., 2012). Events in color are associated with blind faults within sedimentary basins. Major earthquakes in the San Fernando Valley are shown as red stars. Fault traces are from the SCEC CFM (Marshall et al., 2023).<br><br><br></figcaption></figure>
+
+<rh2>Data</rh2><br>
+With assistance from a group of volunteers, we installed a 140-station nodal array (0.3-2.5 km spacing) across the San Fernando Valley in October 2023. Using ML-based event detection (Omojola and Persaud, 2024) and a multi-step event association workflow (Figure 2), we filtered our initial picks to improve processing efficiency before event association.<br>
+
+	  <figure class="floatwide"><img src="images/SFV_Fig2.png"><figcaption><br>FIG. 2 (a) Methodology workflow showing the steps used to generate our local catalog. (b) Diurnal variations in phase picks throughout the recording period showing correlation with day and nighttime urban activity (c-d) Phase detections before and after preprocessing across all stations on October 29-30, 2023.</figcaption></figure><br>
+
+<rh2>Urban Seismicity & Hidden Faults</rh2><br>
+We identified 62 earthquakes in the one-month period with magnitudes ranging between M<sub>L</sub> 0.04 to 4.0 (Figure 3). Events are clustered around known fault traces at depths between 6–25 km. Cluster 1 in our catalog is located along an unmapped fault zone on the southern edge of the Valley (Figure 3). Focal mechanisms from an M<sub>L</sub> 1.48 event along this fault zone reveal an oblique strike-slip fault dipping at 71-72˚. Relocated seismicity (Hauksson et al., 2012) delineates a 5.3 km by 4 km active area along the fault. This region has exhibited persistent seismicity since 1980, including a M<sub>B</sub> 4.4 event.<br>
+We detected twice as many events compared to the SCEDC catalog, suggesting regional catalog incompleteness for small magnitude events and highlighting the need for improved station coverage near the cluster 1 fault zone.<br><br>
+
+	  <figure class="floatwide"><img src="images/SFV_Fig3.png"><figcaption><br>FIG. 3 Map of the San Fernando Valley showing our dense nodal array and earthquake catalog as stars. Major faults (Marshall et al., 2023), faults (black dashed–dotted lines) from Juárez-Zúñiga and Persaud (2025), M&lt2.5 earthquakes (Hauksson et al., 2012), and focal mechanisms for older earthquakes (USGS, 2025) are shown. MHF, Mission Hills fault; ORFZ, Oak Ridge fault zone or Northridge thrust; SAF, San Andreas fault; SFF, San Fernando fault; SGFZ, San Gabriel fault zone; SMFZ, Sierra Madre fault zone; SS, Santa Susana fault.</figcaption></figure>
+
+Following catalog generation, we analyzed power spectral densities to characterize noise levels across the array for different events. We subsequently assessed event detectability by calculating signal-to-noise ratios as a function of event magnitude, hypocentral distance, and local noise conditions. 
+This analysis provides critical constraints for optimal permanent station siting and event detection parameters. Applying this framework, we determined the minimum event-station distance required to adequately monitor seismicity along the cluster 1 fault zone. Further details are provided <a href="https://doi.org/10.1785/0220250124">here</a>.<br><br>
+
+<rh2>Addressing Monitoring Gaps</rh2><br>
+<ul>
+<li>Dense nodal arrays offer a practical solution, providing unobtrusive, high-density coverage that enables enhanced hypocenter relocations and focal mechanism determination for microearthquakes (M&lt4).</li> 
+<li>In the San Fernando Valley, we observed better phase arrival alignment for event locations calculated using our array (Figure 4).</li>
+<li>Enhanced detection of microearthquakes with our array improved fault characterization by providing tighter constraints on fault geometry, kinematics, and seismic activity.</li>
+
+<figure class="floatright"><img src="images/SFV_Fig5.png"><figcaption><br>FIG. 4 Body wave phase arrivals (P-wave red and S-wave blue) for M1.48 event from cluster 1. Hypocenter comparison shows more accurate phase arrivals for locations computed using our array. Event locations are shown in Figure 3.</figcaption></figure><br>
+
+
+<li>Our results provide insights beyond event detection and location. While previous analyses of San Fernando Valley fault activity have emphasized shallow (&lt5 km) crustal structures (Langenheim et al., 2011), most large-magnitude events nucleated on deeper faults (>10 km) where fault geometry remains poorly constrained. </li>
+<li>Analysis of relocated catalogs spanning 1980-2018 (Hauksson et al., 2012) reveals a 20 km long antithetic fault segment beneath the Oakridge fault zone. </li>
+<li>Such multi-fault interactions can amplify damage during large earthquakes and must be incorporated into ground motion simulations to improve hazard assessments.</li>
+	  </ul>
+
+
+<rh2>Main Points</rh2><br>
+<ul>
+	<li>Dense nodal arrays are useful for monitoring urban seismicity.</li>
+<li>We identified an unmapped fault zone in the southern San Fernando Valley from one month of monitoring with our dense nodal array.</li>
+<li>We also identified seismic monitoring gaps and multi-fault interactions that can impact seismic hazards around the Valley.</li>
+<li>Our methodology provides a framework for improving seismic hazard assessment in other urban settings where conventional monitoring is limited by sparse coverage and elevated noise levels.</li>
+	  </ul>
+
+<strong>PUBLICATIONS</strong> (See <a href="Publications.html">Publications</a> for meeting abstracts)
+	  
+<li style="padding: 3px 0px">Juarez-Zuñiga A.<sup>+</sup>, <strong>P. Persaud</strong> (2025), <u><a href="https://doi.org/10.1785/0220240473">New Insights into the Crustal Structure of the San Fernando Valley, California, from a Dense Nodal Seismic Array</a></u>, (Accepted 23 April 2025 at <i>Seismological Research Letters</i> - submitted 4 December 2024).</li>
+
+<li style="padding: 3px 0px">Villa V.<sup>^</sup>, R. Clayton, <strong>P. Persaud</strong> (2026), <u><a href="https://arxiv.org/abs/2601.02575">Receiver Functions in the San Fernando Valley, California: Graph-Regularized Bayesian Approach for Gravity-Informed Mapping</a></u>, (Under review at <i>Journal of Geophysical Research: Solid Earth</i> - submitted 29 December 2025).</li>
+	  
+<li style="padding: 3px 0px">Omojola J.* and <strong>P. Persaud</strong> (2026), <u><a href="https://doi.org/10.1785/0220250124">Detecting Urban Earthquakes with the San Fernando Valley Nodal Array and Machine Learning</a></u>, (Accepted 6 July 2025 at <i>Seismological Research Letters</i> - submitted 15 April 2025).</li><br>
+	  
+<figure class="floatwide"><img width="100%" src="images/SFV_Field_1.jpg"><figcaption>Node installation in the San Fernando Valley by Cassie Hannagan and Rajani Shrestha.</figcaption></figure>
+	  
+<strong>ACKNOWLEDGMENTS</strong><br>
+We thank the San Fernando Valley residents who hosted the seismic stations and the deployment and pickup teams. The seismic instruments were provided by the EarthScope Consortium/Incorporated Research Institutions for Seismology (IRIS) through the Instrument Center at New Mexico Tech.<br><br><br><br>
+	  
+<strong>References</strong><br>
+- Fuis et al. (2003). Fault systems of the 1971 S. Fernando and 1994 Northridge earthquakes, S. Calif., Geology, 31(2), 171-174.<br>
+- Marshall et al. (2023). SCEC Community Fault Model (CFM), doi:10.5281/zenodo.8327463.<br>
+- Omojola, J. & P. Persaud (2024). Monitoring salt domes used for energy storage with microseismicity: Insights for a Carbon-Neutral Future, Geochem. Geophys. Geosys. 25, e2024GC011573, doi:10.1029/2024GC011573.<br>
+- Hauksson, Yang & Shearer (2012). Waveform reloc. eq. cat. for S. California (1981 to June 2011), BSSA. 102, no. 5, 2239–2244.<br>
+- USGS (2025). Catalog webservice for recent and historic significant earthquakes (last accessed June 2025).<br>
+- Juárez-Zúñiga, A. & P. Persaud (2025). New insights into the crustal structure of the San Fernando Valley, California, from a Dense nodal seismic array, Seismol. Res. Lett. doi: 10.1785/0220240473.<br>
+- Langenheim et al.(2011). Structure of the San Fernando Valley region, California: Implications for seismic hazard and tectonic history, Geosphere 7, no. 2, 528–572.<br><br>
+	  
+</research>
+<br>
+
+  <researchaside>
+  </researchaside>
+  <footer>
+    <p><a href="https://www.geo.arizona.edu">UA Department of Geosciences</a></p>
+    <p><a href="http://www.arizona.edu">UA Main Page</a></p>
+  </footer>
+  <script type="text/javascript" src="js/menu.js"></script>
+</div>
+
+</body>
+</html>
